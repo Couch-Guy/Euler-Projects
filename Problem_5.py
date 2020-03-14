@@ -1,7 +1,7 @@
 #Numpy is used for finding product of arrays
 import numpy as np
 
-#Same function used for project uler 3 to find prime factorization
+#Same function used for project Euler 3 to find prime factorization
 def factorization():
     global prime_temp
     prime_temp=[]
@@ -18,7 +18,8 @@ def factorization():
                 break
 #After finding factors this function finds where a number x occured the most
 #It then multiplies the number x where it occured most in the array to other
-#Numbers 2-desired number
+#Prime Numbers that occured the most.
+#Don't recall the algorithm name
 def sorting():
     for x in range(2,max(maximum)+1):
         temp_list=[]                            #Used to store arrays for short time.
