@@ -1,3 +1,5 @@
+###Code Updated now runs in less than one second###
+###The reason for the arrays are be able to view all the data leading up to the answer###
 import math
 def prime_range():
     p=11
